@@ -1,0 +1,605 @@
+<!doctype html>
+<html>
+<head>
+<title>CAMALEÓN MODELS GROUP</title>
+<meta name="description" content="HOLDING" />
+<meta name="robots" content="all,index,follow" /><meta name = "viewport" content = "initial-scale = 1.1, user-scalable = no"><meta charset="UTF-8" />
+<link rel="manifest" href="https://www.socialcreator.com/camaleonmodelsgroup/manifest.json">
+<link rel="apple-touch-icon" href="http://banco.camaleonmg.com/uploads/56115_ico.webp">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="CAMALEON MODELS GROUP">
+<link rel="stylesheet" href="https://www.socialcreator.com/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-animate-opacity{-webkit-animation:opac 1s;animation:opac 1s}
+@-webkit-keyframes opac{from{opacity:0} to{opacity:1}}
+@keyframes opac{from{opacity:0} to{opacity:1}}
+
+
+html{min-height:100%;}
+body
+{
+margin:0px;padding:0px;font-family:Roboto;background-color:#000000;}
+
+h1.cab{margin-left:10px;}
+h3.cab{margin-left:10px;}
+.txtgen{font-size:18px;}
+.txtgen2{font-size:16px;}
+@media all and (max-width: 460px)
+{
+	h1.cab{font-size:22px;}
+	h3.cab{font-size:16px;}
+	.txtgen{font-size:16px;}
+	.txtgen2{font-size:16px;}
+}
+
+
+.topcmain{border:0px;transition:background-color 0.2s ease;white-space:nowrap;cursor:pointer;}
+.topcmain:hover{background-color:#1e1e1e;}
+@media all and (max-width: 790px)
+{
+	.topcmain:hover{background-color:#1e1e1e;}
+}
+
+hr{position:inherit;height: 1px;border: 0;border-top: 1px solid;margin: 1em 0;padding: 0;}
+
+.brillar{opacity: 0.7;transition:opacity 0.2s ease;}
+.brillar:hover{opacity: 1;}
+
+.boton1{
+	padding:10px;
+	font-size:18px;
+	font-family:Roboto;
+	cursor:pointer;
+	transition:background-color 0.2s ease;
+	color:#FFFFFF;
+	background-color:#;
+}
+.boton1:hover{background-color:#1e1e1e;}
+.somb{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.tit_card{font-size:18px;margin:5px;}
+.subtit_card{font-size:14px;margin:5px;}
+.fecha_card{font-size:14px;margin:5px;}
+
+.tprodimgs{width:500px;}
+.tprodflecha{left:462px;}
+.mySlidesProd{max-width:490px;}
+.divmapa{width:500px;}
+.videoprod{width:500px;height:375px;}
+@media all and (max-width: 500px)
+{
+	.tprodimgs{width:250px;}
+	.tprodflecha{left:212px;}
+	.mySlidesProd{max-width:240px;}
+	.divmapa{width:250px;}
+	.videoprod{width:250px;height:188px;}
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#onoffico{font-size:24px;color:#666666;position:relative;top:2px;left:-2px;}
+@media only screen and (min-width: 791px)
+{
+	#onoffico{font-size:28px;color:#666666;position:relative;top:3px;left:-2px;}
+}
+
+.onoffswitch {
+    position: relative; width: 60px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 4px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 20px; padding: 0; line-height: 20px;
+    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #A67D4C; color: #FFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 14px; margin: 3px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 36px;
+    border: 2px solid #999999; border-radius: 4px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width:600px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+	.mySlides {display:none}
+	.ss-badge {height:13px;width:13px;padding:0;cursor:pointer;background-color:#666666;}
+	* {
+	    box-sizing: border-box;
+	}
+
+	.row-grid:after {
+	    content: "";
+	    clear: both;
+	    display: block;
+	}
+
+	[class*="col-"] {
+	    float: left;
+	    padding: 15px;
+	    width: 100%;
+	}
+	@media only screen and (min-width: 791px) {
+	    .col-2 {width: 50%;}
+	    .col-3 {width: 33.33%;}
+	    .col-4 {width: 25%;}
+	    .col-5 {width: 20%;}
+	    .col-6 {width: 16.66%;}
+	    .col-7 {width: 14.28%;}
+	    .col-8 {width: 12.5%;}
+	}
+	
+		.centrado1{float:left;position:relative;left:50%;}
+	.centrado2{float:left;position:relative;left:-50%;}
+
+		@media only screen and (min-width: 791px) {
+	    .col-22 {width: auto;}
+	}
+	
+	@media only screen and (min-width: 1116px) {
+	    .col-33 {width: auto;}
+	}
+	.hoverlight:hover{box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.2);}
+	.av_cr{color:#666666;font-size:12px!important;position:relative;top:-1px;cursor:pointer;}
+	.av_ci{color:#CC0000;font-size:9px!important;position:relative;top:-2px;}
+	@media all and (min-width: 791px)
+	{
+		#tcab{height:80px;}
+		#tcab_td_aux{height:80px;}
+		#imgcab{max-height:76px;}		#lema{font-weight:bold;font-size:24px;}		.icotop_2{font-size:14px;position:absolute;top:12px;right:108px;}
+		.icotop_22{font-size:14px;position:absolute;top:12px;right:5px;}
+		.tdicotop{padding:15px;font-size:24px;color:#A67D4C;}
+		#avisos{position:absolute;top:40px;right:5px;z-index:99;display:none;}
+		
+					#tcab{position:fixed;top:0px;}
+			#tcab_aux{display:inline;}
+					#btnatras{display:none;}
+			}
+
+	@media all and (max-width: 790px)
+	{
+		#tcab{height:40px;}
+		#tcab_td_aux{height:40px;}
+		#imgcab{max-height:36px;}		#lema{font-weight:bold;font-size:12px;}		.icotop_2{font-size:10px;position:absolute;top:2px;right:73px;}
+		.icotop_22{font-size:10px;position:absolute;top:2px;right:5px;}
+		.tdicotop{padding:10px;font-size:15px;color:#A67D4C;}
+		#avisos{position:absolute;top:35px;right:5px;z-index:99;display:none;}
+
+						#tcab{position:fixed;top:0px;}
+				#tcab_aux{display:inline;}
+					#btnatras{display:none;}
+			}
+	.topcmain_sl{border:0px;transition:background-color 0.2s ease;white-space:nowrap;cursor:pointer;width:100%;}
+			@media all and (min-width: 791px)
+		{
+			#tslide_2{background-color:#000000;color:#FFFFFF;}
+			.topcmain_sl:hover{background-color:#1e1e1e;}
+		}
+			@media all and (max-width: 790px)
+		{
+			#tslide_2{background-color:#000000;color:#FFFFFF;}
+			.topcmain_sl:hover{background-color:#1e1e1e;}
+		}
+	
+</style>
+<script src="https://www.socialcreator.com/jquery-1.11.3.min.js"></script>
+<script src="https://www.socialcreator.com/dom/js_getCookie.js"></script>
+<script language="javascript">
+
+$(document).ready(function(){
+	$(document).click(function() {
+	    $("#avisos").hide();
+	});
+});
+
+function fcaddia(d_str,idaviso)
+{
+	var d_aux = new Date(2000+parseInt(d_str.substr(4,2)),parseInt(d_str.substr(2,2))-1,parseInt(d_str.substr(0,2)),parseInt(d_str.substr(6,2)),parseInt(d_str.substr(8,2)));
+	d_aux.setMinutes(d_aux.getMinutes() - d_aux.getTimezoneOffset());
+	var d_aux_3=new Date(d_aux);
+	d_aux_3.setHours(0,0,0,0);
+
+	var cad_dia="";
+	var today=new Date();
+	today.setHours(0,0,0,0);
+	var yesterday=new Date(today);
+	yesterday.setDate(yesterday.getDate()-1)
+	if(d_aux_3.getTime()==today.getTime()){cad_dia="Hoy";}
+	else if(d_aux_3.getTime()==yesterday.getTime()){cad_dia="Ayer";}
+	else
+	{
+		var dia_aux=d_aux_3.getDate();if(dia_aux<10){dia_aux="0"+dia_aux;};
+		var mes_aux=d_aux_3.getMonth()+1;if(mes_aux<10){mes_aux="0"+mes_aux;};
+					cad_dia=dia_aux+"-"+mes_aux+"-"+d_aux_3.getFullYear();
+			};
+	var h_aux=d_aux.getHours();if(h_aux<10){h_aux="0"+h_aux;};
+	var mi_aux=d_aux.getMinutes();if(mi_aux<10){mi_aux="0"+mi_aux;};
+	cad_dia+="&nbsp;"+h_aux+":"+mi_aux;
+
+	$(".fh"+idaviso).html(cad_dia);
+};
+
+function fvisto(id)
+{
+	$(".av_ci"+id).hide();
+	$(".av_cr"+id).hide();
+	var n_aux=$("#av_nnuevos").html()-1;
+	if(n_aux==0){$("#av_nnuevos").hide();}
+	else{$("#av_nnuevos").html(n_aux);};
+    $.ajax({
+      type: "GET",
+      url: "https://www.socialcreator.com/dom/aviso_leido.php?idusu=21185834",
+      data: "avle="+id
+     });
+}
+
+function falert(cad)
+{
+	document.getElementById("modaltxt").innerHTML=cad;
+	document.getElementById('divmodal').style.display="block";
+}
+function fconfirm(cad,f,p)
+{
+	document.getElementById("modaltxtconfirm").innerHTML=cad;
+	$("#btnmodalok").prop('onclick',null).off('click');	$("#btnmodalok").click(function() {
+		$('#divmodalconfirm').hide();
+				if(f.indexOf('@')!=-1)
+		{
+			f=f.split("@");
+			if(f.length==3){self.frames[f[0]][f[1]][f[2]](p);}
+			else if(f.length==2){self.frames[f[0]][f[1]](p);};
+		}
+		else
+		{
+    		window[f](p);
+    	};
+  	});
+	document.getElementById('divmodalconfirm').style.display="block";
+}
+
+function fcambionotif()
+{
+	var chk=document.getElementById("chknotif");
+	if(chk.checked)
+	{
+		self.parent.location="https://www.socialcreator.com/camaleonmodelsgroup/push_grant.html";
+	}
+	else
+	{
+		if(getCookie('iden')){$.get("https://www.socialcreator.com/dom/push_cambio.php?idapp=56115&modo=0");};
+	}
+}
+
+jQuery(function( $ )
+{
+	
+	});
+</script>
+
+
+</head>
+<body>
+	<table id="tcab_aux">
+	<tr>
+	<td id="tcab_td_aux"></td>
+	</tr>
+	</table>
+	<table id="tcab" style="background-color:#000000;width:100%;z-index:101;border-bottom:1px solid #BDBDBD;">	<tr>
+				<td id="btnslide" style="width:1%;"><i class="material-icons" style="cursor:pointer;font-size:20px;position:relative;top:2px;margin-left:10px;color:#A67D4C;" onclick="fslide(1);">&#xE5D2;</i></td>
+				<td style="padding:0;"><table style="border:0px;width:auto;" colspacing="0" align="center">
+		<tr>
+					<td><a href="index.html"><img id="imgcab" style="border:0px;" alt="Logo de CAMALEÓN MODELS GROUP" src="http://banco.camaleonmg.com/uploads/56115_ico.webp"></a></td>
+							<td id="lema" style="padding:5px;color:#A67D4C;">BIENVENIDOS A HOLDING CAMALEÓN</td>
+				</tr>
+		</table></td>
+				<td style="color:#FFFFFF;" align="right">
+				<table style="border:0px">
+		<tr>
+					<td class="hoverlight tdicotop" style="cursor:pointer;" onclick="$('#avisos').toggle();event.stopPropagation();"><i class='fa fa-bell'></i></td>
+				</tr>
+		</table>
+
+			   		<div id="avisos" class="w3-dropdown-content w3-border" style="z-index:99;">
+			<table style="border:0;width:100%;">
+			<tr>
+			<td>
+			<i onClick="$('#avisos').hide();event.stopPropagation();" class="fa fa-times" style="cursor:pointer;margin:5px;"></i>
+			</td>
+							<td>
+								    <table style="border:0px;margin-left:auto;margin-right:10px;width:1%;">
+				    <tr>
+				    <td><i id="onoffico" class="fa fa-bullhorn"></i></td>
+				    <td onclick="event.stopPropagation();">
+					<div class="onoffswitch">
+						<input type="checkbox" name="chknotif" class="onoffswitch-checkbox" id="chknotif" onclick="fcambionotif();">
+					    <label class="onoffswitch-label" for="chknotif">
+					        <span class="onoffswitch-inner"></span>
+					        <span class="onoffswitch-switch"></span>
+					    </label>
+					</div>
+					</td>
+					</tr>
+					</table>
+				</td>
+						</tr>
+			<tr><td colspan="2" style="height:1px;background-color:#CCCCCC;padding:0;"></td></tr>
+			</table>
+
+			
+	   			   		    <span class="w3-padding">No hay ninguna alerta</span>
+	   			    	</div>
+	    				</td>
+		</tr>
+	</table>
+
+	<script language="javascript">
+	function fslide(modo)
+	{
+		var px=0;
+		if(modo==0){px=-1000;};
+		document.getElementById("tslide").style.left=px+"px";
+	}
+	</script>
+	<div id="tslide" style="height:100%;overflow-x:hidden;overflow-y:auto;position:fixed;top:0px;left:-1000px;z-index:102;transition:left 0.2s ease;">
+	<table class="w3-card-4" id="tslide_2">
+	<tr>
+		<td align="right" style="padding-right:20px;"><a style="text-decoration:none;font-size:28px;" href="javascript:var v=fslide(0);">&times;</a></td>
+	</tr>
+            <tr><td style="white-space:nowrap;">
+	        <table class="topcmain_sl" onmousedown="self.location='https://www.socialcreator.com/camaleonmodelsgroup/?s=190660';">
+	        <tr>
+	        <td class="imgmenu_sl" style="width:40px;" align="center"><img src="https://www.socialcreator.com/srv/imgs/seccs/190660_ico.png?ts=1662481168" style="border:0px;max-width:40px;max-height:40px;"></td>	        <td class="txtmenu_sl" style="padding:0 15px 0 5px;font-size:16px;">INICIO</td>	        </tr>
+	        </table>
+        </td></tr>
+            <tr><td style="white-space:nowrap;">
+	        <table class="topcmain_sl" onmousedown="self.location='https://www.socialcreator.com/camaleonmodelsgroup/?s=190666';">
+	        <tr>
+	        <td class="imgmenu_sl" style="width:40px;" align="center"><img src="https://www.socialcreator.com/srv/imgs/seccs/190666_ico.png?ts=1662481168" style="border:0px;max-width:40px;max-height:40px;"></td>	        <td class="txtmenu_sl" style="padding:0 15px 0 5px;font-size:16px;">SHOP CAMALEON</td>	        </tr>
+	        </table>
+        </td></tr>
+            <tr><td style="white-space:nowrap;">
+	        <table class="topcmain_sl" onmousedown="self.location='https://www.socialcreator.com/camaleonmodelsgroup/?s=190681';">
+	        <tr>
+	        <td class="imgmenu_sl" style="width:40px;" align="center"><img src="https://www.socialcreator.com/srv/imgs/seccs/190681_ico.png?ts=1662481168" style="border:0px;max-width:40px;max-height:40px;"></td>	        <td class="txtmenu_sl" style="padding:0 15px 0 5px;font-size:16px;">SOLICITUDES </td>	        </tr>
+	        </table>
+        </td></tr>
+            <tr><td style="white-space:nowrap;">
+	        <table class="topcmain_sl" onmousedown="self.location='https://www.socialcreator.com/camaleonmodelsgroup/?s=190669';">
+	        <tr>
+	        <td class="imgmenu_sl" style="width:40px;" align="center"><img src="https://www.socialcreator.com/srv/imgs/seccs/190669_ico.png?ts=1662481168" style="border:0px;max-width:40px;max-height:40px;"></td>	        <td class="txtmenu_sl" style="padding:0 15px 0 5px;font-size:16px;">COOPERATIVA FINANCIERA</td>	        </tr>
+	        </table>
+        </td></tr>
+            <tr><td style="white-space:nowrap;">
+	        <table class="topcmain_sl" onmousedown="self.location='https://www.socialcreator.com/camaleonmodelsgroup/?s=190676';">
+	        <tr>
+	        <td class="imgmenu_sl" style="width:40px;" align="center"><img src="https://www.socialcreator.com/srv/imgs/seccs/190676_ico.png?ts=1662481168" style="border:0px;max-width:40px;max-height:40px;"></td>	        <td class="txtmenu_sl" style="padding:0 15px 0 5px;font-size:16px;">ASESORIA CONTABLE</td>	        </tr>
+	        </table>
+        </td></tr>
+            <tr><td style="white-space:nowrap;">
+	        <table class="topcmain_sl" onmousedown="self.location='https://www.socialcreator.com/camaleonmodelsgroup/?s=193688';">
+	        <tr>
+	        <td class="imgmenu_sl" style="width:40px;" align="center"><img src="https://www.socialcreator.com/srv/imgs/seccs/193688_ico.png?ts=1662481168" style="border:0px;max-width:40px;max-height:40px;"></td>	        <td class="txtmenu_sl" style="padding:0 15px 0 5px;font-size:16px;">CONVENIOS CAMALEON</td>	        </tr>
+	        </table>
+        </td></tr>
+            <tr><td style="white-space:nowrap;">
+	        <table class="topcmain_sl" onmousedown="self.location='https://www.socialcreator.com/camaleonmodelsgroup/?s=190706';">
+	        <tr>
+	        <td class="imgmenu_sl" style="width:40px;" align="center"><img src="https://www.socialcreator.com/srv/imgs/seccs/190706_ico.png?ts=1662481168" style="border:0px;max-width:40px;max-height:40px;"></td>	        <td class="txtmenu_sl" style="padding:0 15px 0 5px;font-size:16px;">SALUD, BIENESTAR Y BELLEZA</td>	        </tr>
+	        </table>
+        </td></tr>
+            <tr><td style="white-space:nowrap;">
+	        <table class="topcmain_sl" onmousedown="self.location='https://www.socialcreator.com/camaleonmodelsgroup/?s=190679';">
+	        <tr>
+	        <td class="imgmenu_sl" style="width:40px;" align="center"><img src="https://www.socialcreator.com/srv/imgs/seccs/190679_ico.png?ts=1662481168" style="border:0px;max-width:40px;max-height:40px;"></td>	        <td class="txtmenu_sl" style="padding:0 15px 0 5px;font-size:16px;">MONETIZACION</td>	        </tr>
+	        </table>
+        </td></tr>
+    	</table>
+	</div>
+
+
+
+<div id="divmodal" class="modal" style="display:none;" onclick="this.style.display='none';">
+  <div id="divmodalcontent" class="modal-content">
+    <span class="close">&times;</span>
+    <p id="modaltxt"></p>
+  </div>
+</div>
+<div id="divmodalconfirm" class="modal" style="display:none;">
+  <div class="modal-content">
+    <p id="modaltxtconfirm"></p>
+    <button class="w3-btn w3-small w3-blue-grey" id="btnmodalok">Aceptar</button>
+    <button class="w3-btn w3-small w3-light-grey" style="margin-left:10px;" onclick="$('#divmodalconfirm').hide();">Cancelar</button>
+  </div>
+</div>
+
+
+
+
+<script>
+function fzoom(dir)
+{
+	document.getElementById("divmodalcontent").style.marginTop="2%";	document.getElementById("modaltxt").innerHTML="<div align='center'><img src='"+dir+"' style='border:0;max-width:100%;'></div>";
+	$('#divmodal').show();
+}
+</script>
+
+	<div>
+			<div class="w3-row">
+		<div class="w3-col m12 w3-center" style="padding:10px;">		<div class="centrado1">
+		<div class="centrado2">
+					<div class=""><img src="http://banco.camaleonmg.com/uploads/logo.webp" class=" w3-round" style="max-width:100%;"></div>		</div>
+		</div>
+	</div>		</div>
+			<div class="w3-row">
+		<div class="w3-col m12 w3-center" style="padding:10px;">		<div class="centrado1">
+		<div class="centrado2">
+					<div class=""><a href="Proxi.html"><img src="http://banco.camaleonmg.com/uploads/UoA0a0Y.webp" class=" w3-round" style="max-width:100%;"></a></div>		</div>
+		</div>
+	</div>		</div>
+			<div class="w3-row">
+		<div class="w3-col m12 w3-center" style="padding:10px;">		<div class="centrado1">
+		<div class="centrado2">
+					<div class=""><a href="Proxi.html"><img src="http://banco.camaleonmg.com/uploads/AZbqY63.webp" class=" w3-round" style="max-width:100%;"></a></div>		</div>
+		</div>
+	</div>		</div>
+			<div class="w3-row">
+		<div class="w3-col m12 w3-center" style="padding:10px;">		<div class="centrado1">
+		<div class="centrado2">
+					<div class=""><a href="Proxi.html"><img src="http://banco.camaleonmg.com/uploads/pvowt9X.webp" class=" w3-round" style="max-width:100%;"></a></div>		</div>
+		</div>
+	</div>		</div>
+			<div class="w3-row">
+		<div class="w3-col m12 w3-center" style="padding:10px;">		<div class="centrado1">
+		<div class="centrado2">
+					<div class=""><a href="RedesSociales.html"><img src="http://banco.camaleonmg.com/uploads/redes.webp" class=" w3-round" style="max-width:100%;"></a></div>		</div>
+		</div>
+	</div>		</div>
+			<div class="w3-row">
+		<div class="w3-col m12 w3-center" style="padding:10px;">		<div class="centrado1">
+		<div class="centrado2">
+					<div class=""><a href="index.html"><img src="http://banco.camaleonmg.com/uploads/Inicio.webp" class=" w3-round" style="max-width:100%;"></a></div>		</div>
+		</div>
+	</div>		</div>
+			<div class="w3-row">
+		<div class="w3-col m12 w3-center" style="padding:10px;">		<div class="centrado1">
+		<div class="centrado2">
+				<div class="w3-content w3-light-grey w3-display-container">
+				<a rel="nofollow" href="https://www.socialcreator.com/camaleonmodelsgroup/?s=193561">	  				<img class="mySlides11375 w3-animate-opacity" src="https://www.socialcreator.com/srv/imgs/ti_slide_imgs/48875_11375.png" style="max-width:100%;display: block;margin-left: auto;margin-right: auto;">
+					
+					</a><a rel="nofollow" href="https://www.socialcreator.com/camaleonmodelsgroup/?s=195204">	  				<img class="mySlides11375 w3-animate-opacity" src="https://www.socialcreator.com/srv/imgs/ti_slide_imgs/48876_11375.png" style="max-width:100%;display: block;margin-left: auto;margin-right: auto;">
+					
+					</a><a rel="nofollow" href="Proxi.html">	  				<img class="mySlides11375 w3-animate-opacity" src="https://www.socialcreator.com/srv/imgs/ti_slide_imgs/48877_11375.png" style="max-width:100%;display: block;margin-left: auto;margin-right: auto;">
+					
+					</a><a rel="nofollow" href="Proxi.html">	  				<img class="mySlides11375 w3-animate-opacity" src="https://www.socialcreator.com/srv/imgs/ti_slide_imgs/48878_11375.png" style="max-width:100%;display: block;margin-left: auto;margin-right: auto;">
+					
+					</a><a rel="nofollow" href="https://www.socialcreator.com/camaleonmodelsgroup/?s=193561">	  				<img class="mySlides11375 w3-animate-opacity" src="https://www.socialcreator.com/srv/imgs/ti_slide_imgs/48879_11375.png" style="max-width:100%;display: block;margin-left: auto;margin-right: auto;">
+					
+					</a><a rel="nofollow" href="https://www.socialcreator.com/camaleonmodelsgroup/?s=193978">	  				<img class="mySlides11375 w3-animate-opacity" src="https://www.socialcreator.com/srv/imgs/ti_slide_imgs/48880_11375.png" style="max-width:100%;display: block;margin-left: auto;margin-right: auto;">
+					
+					</a><a rel="nofollow" href="https://www.socialcreator.com/camaleonmodelsgroup/?s=190669">	  				<img class="mySlides11375 w3-animate-opacity" src="https://www.socialcreator.com/srv/imgs/ti_slide_imgs/48881_11375.png" style="max-width:100%;display: block;margin-left: auto;margin-right: auto;">
+					
+					</a>  				
+  				</div>
+								
+				<script>
+									var slideIndex11375 = 0;
+					carousel11375();
+									function carousel11375() {
+					    var i;
+					    var x = document.getElementsByClassName("mySlides11375");
+					    var dots = document.getElementsByClassName("puntos11375");
+					    for (i = 0; i < x.length; i++) {
+					      x[i].style.display = "none";
+					    }
+						for (i = 0; i < dots.length; i++) {
+						 dots[i].classList.remove("w3-white");
+						}
+					    slideIndex11375++;
+					    if (slideIndex11375 > x.length) {slideIndex11375 = 1}
+					    x[slideIndex11375-1].style.display = "block";
+					    					    setTimeout(carousel11375, 5000);
+					}
+								</script>
+				</div>
+		</div>
+	</div>		</div>
+			<div class="w3-row">
+		<div class="w3-col m12 w3-center" style="padding:10px;">				<video class="" style="max-width:100%;" controls>
+				    <source src="https://imgur.com/tT5H07o.mp4">
+				</video>
+			</div>		</div>
+		</div>
+<br><br><br>
+
+
+<footer>	
+
+<table class="powered" style="border-width:0px;margin:30px 10px 10px 10px;">
+<tr>
+<td style="font-size:small;color:#666666;">Powered by <a href="https://www.socialcreator.com/es/" style="color:#666666;" title="Crear web app y ganar dinero">SocialCreator.com</a></td>
+</tr>
+</table>
+</footer>
+
+</body>
+</html>
+
+
