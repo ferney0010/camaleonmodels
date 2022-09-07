@@ -17,6 +17,7 @@ body{
 
 .cabecera{
     background: #000000;
+    padding: 20px;
    
 }
 
@@ -31,6 +32,7 @@ body{
 .redes{
     margin-top: 20px;
     width: 100%;
+    
 }
 
 
@@ -45,13 +47,20 @@ body{
 }
 
 .categoria{
-    margin: 5px 5px 5px;
+    padding: 2px;
+    margin: 10px;
     border-radius: 30px;
     width: 100%; 
+    border: #a67d4c solid 1px;
+}
+
+.categoria:hover{
+    border: turquoise solid;
+    cursor: pointer;
+   
 }
 
 .sedes{
     width: 100%;
 }
 
-@media (max-width 700)
