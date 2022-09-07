@@ -47,16 +47,15 @@ body{
 }
 
 .categoria{
-    padding: 2px;
+    padding: 0;
     margin: 10px;
-    border-radius: 30px;
+    border-radius: 20px;
     width: 100%; 
-    border: #a67d4c solid 1px;
+    border: #a67d4c solid 3px;
 }
 
 .categoria:hover{
     border: turquoise solid;
-    cursor: pointer;
    
 }
 
