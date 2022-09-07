@@ -10,9 +10,14 @@ body{
     background: #000000;
 }
 
+.logo-nav{
+    height: 50px;
+}
+
 
 .cabecera{
     background: #000000;
+   
 }
 
 .logo{
@@ -48,3 +53,5 @@ body{
 .sedes{
     width: 100%;
 }
+
+@media (max-width 700)
