@@ -47,7 +47,7 @@ main {
 
 svg circle {
     stroke-dasharray: 220;
-    transition: all 1.0s ease-in-out;
+    transition: all .8s ease-in-out;
 }
 
 .icon:hover circle {
