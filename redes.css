@@ -12,7 +12,7 @@ main {
     height: 80px;
     margin: 20px;
     border-radius: 50%;
-    transition: all .8s;
+    transition: all .1s;
     cursor: pointer;
 }
 
@@ -47,7 +47,7 @@ main {
 
 svg circle {
     stroke-dasharray: 220;
-    transition: all .8s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .icon:hover circle {
