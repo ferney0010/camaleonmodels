@@ -20,9 +20,18 @@ h1 {
 
 }
 
+
+
 .mision-vision{
-    background-color: rgb(194, 132, 0);
-    opacity: .8;
+    border: 1px solid #616161;
+    background-position: 100%;
+   
+
+}
+
+
+
+.mision-vision{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,23 +41,46 @@ h1 {
     border-radius: 30px;
     text-align: justify;
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.footer{
+    color: #616161 ;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 50px;
+
 }
 
 
 @media (max-width: 680px){
     .mision-vision{
-        opacity: .8;
+        border: 1px solid #616161;
+        background-position: 100%;    
         margin: 0 10px;
         padding: 15px 25px;
         display: flex;
         justify-content: center;
-        background-color: rgb(194, 132, 0);
         border-radius: 30px;
         text-align: justify;
         font-size: 16px;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    
 }
+
+.footer{
+    font-size: 12px;
+}
+
+
 
 h1 {
     padding: 10px;
