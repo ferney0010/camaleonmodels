@@ -22,6 +22,7 @@ h1 {
 
 .mision-vision{
     background-color: rgb(194, 132, 0);
+    opacity: .8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,6 +38,7 @@ h1 {
 
 @media (max-width: 680px){
     .mision-vision{
+        opacity: .8;
         margin: 0 10px;
         padding: 15px 25px;
         display: flex;
