@@ -23,9 +23,15 @@ body{
 }
 
 
-.inicio{
+.boton-redes{
+  margin: 10px;
+}
 
-    margin: 20px;
+.home{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
