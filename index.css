@@ -76,12 +76,12 @@ h1{
     left: 0;
     backface-visibility: hidden;
     transform-style: preserve-3d;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .card__back{
     transform: rotateY(180deg);
-    background: white;
+    background-color: antiquewhite;
 }
 
 .body__card_front{
@@ -92,7 +92,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: antiquewhite;
     transform: translateZ(60px);
 }
 
@@ -102,18 +102,21 @@ h1{
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,0.4);
-    border-radius: 20px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 30px;
 }
 
 .body__card_back{
-    padding: 30px;
+    margin: 60px 20px ;
     text-align: center;
     transform: translateZ(60px);
 }
 
 .body__card_back p{
-    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
     font-size: 24px;
 }
 
@@ -124,7 +127,7 @@ h1{
     cursor: pointer;
     border: none;
     color: white;
-    background: #58B0F6;
+    background: #000000;
     box-shadow: 1px 1px 30px -5px #58B0F6;
     border-radius: 10px;
     transition: box-shadow 600ms;
@@ -286,7 +289,7 @@ a{
     .logo-pricipal .logo{
         width: 100%;
     }
-    
+
     
     .categoria-pagina-principal{
         margin: 0px 20px;
