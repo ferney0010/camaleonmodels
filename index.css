@@ -61,7 +61,6 @@ h1{
 }
 
 .card__front{
-   
     background-size: cover;
     background-position: center;
 }
@@ -81,7 +80,7 @@ h1{
 
 .card__back{
     transform: rotateY(180deg);
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 .body__card_front{
@@ -92,7 +91,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: antiquewhite;
+    color: white;
     transform: translateZ(60px);
 }
 
@@ -102,7 +101,6 @@ h1{
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,0.3);
     border-radius: 30px;
 }
 
@@ -128,7 +126,7 @@ h1{
     border: none;
     color: white;
     background: #000000;
-    box-shadow: 1px 1px 30px -5px #58B0F6;
+    box-shadow: 1px 1px 30px -5px #616161;
     border-radius: 10px;
     transition: box-shadow 600ms;
 }
